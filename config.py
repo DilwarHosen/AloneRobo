@@ -5,10 +5,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "25625520"))
+API_HASH = getenv("API_HASH", "b8d327b196bae9b4c72e93a7395b8f05")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "8147450157:AAHT4Qx1rQvyKeZ7geYmXrGGc9f8LTqonXg")
 OWNER_USERNAME = getenv("OWNER_USERNAME","AloneHuVai")
 BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
 BOT_NAME = getenv("BOT_NAME" , "𝙍𝙚𝙙 ✘ 𝙒𝙞𝙣𝙚 ✘ 𝙈𝙪𝙨𝙞𝙘")
@@ -34,7 +34,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b582008
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQGHA7AACDKewU6Kob8Qg7TNCk7vX8zMma1tk6pkIYESb12qglcyRwIXSdAb5dKevKMHo2RD6zSo0mi7DZmrjWMrA1UwUf9IBlVj96dbIf2j0e41n1hcDriukrVsOnZP7wG9s5O1qDITy8s4ttpsWMG5WREMxtDRui61k8SDhaga8rQJwZ-jEbMVNyagZYSgPepGGsW_UGbwAADU6y5W1ODAzfnF84GIPaVNQVpgX56_ffuRn42-DT-AjKx3TfgP2erTDWfhRubyu-VEhy8Pl4H_-6u_-cTykyAptAcxOiPiVsbB3ZPRJiHgRE4mWtuPqqOdMeOOuVx-BpSpu5Ts7c54728-sQAAAAG2UkNcAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
